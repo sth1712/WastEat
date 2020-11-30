@@ -685,6 +685,39 @@ a {
 
 }
 
+    @media only screen and (max-width: 450px) {
+
+
+
+    .step-item-1 {
+        display: none;
+
+    }
+    
+
+    .step-item-4 {
+        display: none;
+
+    }
+
+    .step-item-5 {
+        display: none;
+
+    }
+
+    .step-item-8 {
+        display: none;
+
+    }
+
+
+    .step-item-9 {
+        display: none;
+
+    }
+
+}
+
 
 
 
