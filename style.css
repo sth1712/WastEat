@@ -319,42 +319,35 @@ button {
 }
 
 .flexbox-container-1{
-    margin-left: 5%;
-    margin-right: 5%;
     background-color: white;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    line-height:1.6em;
 }
 
 .flexbox-container-2{
-    margin-left: 5%;
-    margin-right: 5%;
-    background-color: white;
     display: flex;
     flex-wrap: wrap;
     align-self: flex-start;
     justify-content: center;
+    line-height:1.6em;
 }
 
 
 .flexbox-container-3{
     display: flex;
     flex-wrap: wrap;
-    margin-left: 5%;
-    margin-right: 5%;
-    background-color: white;
     justify-content: center;
+    line-height:1.6em;
 }
 
 .flexbox-container-4{
     display: flex;
-    margin-left: 5%;
-    margin-right: 5%;
-    background-color: white;
     flex-wrap: wrap;
     justify-content: center;
+    line-height:1.6em;
 }
 
 .flexbox-container-5{
@@ -362,9 +355,7 @@ button {
     flex-direction: column;
     align-items: center;
     font-size: 20px;
-    margin-left: 5%;
-    margin-right: 5%;
-    background-color: white;
+    line-height:1.6em;
 
 
 }
