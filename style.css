@@ -407,6 +407,40 @@ a {
 }
 
 
+/*Nora har lagt inn nytt */
+
+.container-sdg{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.container-sdg-text{
+  width: 100%;
+  text-align: center;
+
+}
+
+.container-sdg-icons{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.container-sdg-icon1{
+  width: 25%;
+  height: auto;
+  min-width: 150px;
+  flex-basis: auto;
+}
+
+.container-sdg-icon2{
+  width: 25%;
+  height: auto;
+  min-width: 150px;
+  flex-basis: auto;
+}
+
+
 @media only screen and (max-width: 800px) {
     .flexbox-item-1{
         flex-basis: 100%;
