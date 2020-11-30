@@ -289,11 +289,9 @@ button {
 /* challenge webpage */
 
 .body-challenge{
-    background-color: #dfdfdf;
     color: black;
     font-family: Optima, Garamond, Verdana, Helvetica, Arial sans-serif;
     font-size:1.2em;
-    line-height:1.6em;
     margin:0;
 }
 
@@ -319,7 +317,6 @@ button {
 }
 
 .flexbox-container-1{
-    background-color: white;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
