@@ -289,38 +289,46 @@ a {
     font-family: Optima, Garamond, Verdana, Helvetica, Arial sans-serif;
     font-size:1.2em;
     margin:0;
-}
+} 
 
-
-.banner-challenge{
-    padding: 30px;
-    text-align: center;
-    background: #0F4316;
-    color: white;
-    font-size: 1.5em;
-}
-
-.img1-challenge{
-    max-width: 100%;
-    min-width: 300px;
+.banner-challenge-content{
+    display: flex;
+    flex-wrap: wrap;
     height: auto;
-}
-
-.img2-challenge{
     width: 100%;
-    min-width: 300px;
+    align-items: stretch;
+    justify-content: center;
+    padding-top: 60px;
+}
+.banner-challenge-text {
+    display: flex;
+    flex-basis: 50%;
+    flex-grow: 1;
+    background: #fff5d4;
+    margin-bottom: 4px;
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+}
+.banner-challenge-picture{
+    flex-grow: 1;
+    flex-basis: 50%;
+}
+.banner-challenge-picture img{
+    max-width: 100%;
     height: auto;
+    min-width: 400px;
 }
 
-.flexbox-container-1{
+
+.foodwaste-container{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     line-height:1.6em;
 }
-
-.flexbox-container-2{
+.foodandhealth-container {
     display: flex;
     flex-wrap: wrap;
     align-self: flex-start;
@@ -328,86 +336,50 @@ a {
     line-height:1.6em;
 }
 
-
-.flexbox-container-3{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    line-height:1.6em;
+.img1-challenge{
+    max-width: 100%;
+    min-width: 40%;
+    height: auto;
 }
+.img2-challenge{
+    width: 100%;
+    min-width: 300px;
+    height: auto;
+} 
 
-.flexbox-container-4{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    line-height:1.6em;
-}
-
-.flexbox-container-5{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: 1.3em;
-    line-height:1.6em;
-
-
-}
-
-.flexbox-item{
+.foodwaste-item {
     max-height: 100%;
     max-width: 80%;
     margin: 3%;
 }
 
-.flexbox-item-1{
-    flex-basis: 40%;
-    order:2
-
+.foodandhealth-item {
+    max-height: 100%;
+    max-width: 80%;
+    margin: 3%;
 }
 
-.flexbox-item-2{
-    flex-basis: 20%;
-    order:1
-
-
-}
-
-.flexbox-item-3{
+.foodwaste-item-1{
+    flex: 1;
     order:2;
-    flex-basis: 20%;
-
 }
-
-.flexbox-item-4{
-    order: 1;
-    flex-basis: 40%;
-
-}
-
-.flexbox-item-5{
-    max-width: 400px;
-    flex-basis: 20%;
+.foodwaste-item-2{
+    flex: 1;
     order:1;
 }
-
-.flexbox-item-6{
-    flex-basis: 50%;
+.foodandhealth-item-1{
     order:2;
+    flex: 1;
 }
 
-
-.flexbox-item-7{
-    width: 250px;
-    order: 2;
-}
-
-.flexbox-item-8 {
-    flex-basis: 50%;
+.foodandhealth-item-2{
     order: 1;
+    flex: 1;
+   
 }
 
 
-/*Nora har lagt inn nytt */
+
 
 .container-sdg{
   display: flex;
