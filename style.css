@@ -392,12 +392,10 @@ button {
 /* Soulition page */
 
 .banner-solution{
-    padding: 30px;
+    /*padding: 30px;*/
     text-align: center;
-    background: #1f7a00;
-    color: white;
     font-size: 28px;
-    margin-bottom: 50px;
+    
 }
 
 .solution-container{
@@ -406,17 +404,21 @@ button {
     height: auto;
     width: 100%;
     align-items: stretch;
-    margin-bottom: 55px;
+    margin-bottom: 80px;
+    margin-top: 30px;
+    
 }
 
 .solution-image{
     flex: 1;
-
+    justify-content: stretch;
+    
 }
 
 .solution-image img {
     height: auto;
-    max-width: 100%;
+    width: 100%;
+    max-height: 100%;
     min-width: 400px;
 }
 
@@ -427,58 +429,66 @@ button {
     align-items: center;
     font-size: 1.2em;
     line-height: 2em;
-    background-color: white;
+    background-color: #fff5D4;
     margin-bottom: 6px;
+    padding-right: 3%;
+    padding-left: 3%;
     height: auto;
     max-width: 100%;
     min-width: 400px;
+
 }
 
 .solution-text span{
-    color: #1f7a00;
+    color: #155B1E;
+    font-weight: bold;
 }
 
 
 .steps-headline{
     display: flex;
     justify-content: center;
-    margin-bottom: 40px;
     font-size: 1.5em;
+    
+}
 
+.steps-container {
+    margin-top: 3%;
+    
 }
 
 .steps-container1{
-    margin-left: 5%;
-    margin-right: 5%;
-    background-color: white;
+    margin: 5%;
+    background-color: #fff5D4;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: stretch;
-
+   
 }
 
 .steps-container2{
-    margin-left: 5%;
-    margin-right: 5%;
-    background-color: white;
+    margin: 5%;
+    background-color: #fff5D4;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: stretch;
-
+    
 }
 
 .step-item{
-    /*height: auto;*/
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 20px 10px;
-    line-height: 1.9em;
-
-
+   /*height: auto;*/
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   padding: 20px 10px;
+   line-height: 1.9em;
+   margin-top: 3%;
+   margin-bottom: 3%;
+   
+   
 }
 
 .step-item p {
@@ -495,25 +505,25 @@ button {
 .step-item-1{
     flex: 1;
     border-right: 5px solid orange;
-    padding: 40px 5px;
+    margin: 40px 0x;
 }
 
 .step-item-2{
     flex: 1;
     justify-content: center;
-    padding: 40px 5px;
+    margin: 40px 0;
 }
 
 .step-item-3{
     flex: 1;
     border-right: 5px solid orange;
     justify-content: center;
-    padding: 40px 5px;
+     margin: 40px 0;
 }
 
 .step-item-4{
     flex: 1;
-    padding: 40px 5px;
+    margin: 40px 0;
 }
 
 .step-item-5{
@@ -526,7 +536,7 @@ button {
     flex: 1;
     justify-content: center;
     padding: 40px 5px;
-
+    
 }
 
 .step-item-7{
@@ -539,7 +549,7 @@ button {
 .step-item-8 {
     flex: 1;
     padding: 40px 5px;
-
+    
 }
 
 .step-item-9 {
@@ -554,6 +564,84 @@ button {
     padding: 40px 5px;
 }
 
+@media only screen and (max-width: 1182px) {
+    
+    .solution-image img {
+        
+    }
+    
+
+@media only screen and (max-width: 750px) {
+    .steps-container1 {
+        flex-direction: column;
+    }
+
+    .steps-container2 {
+        flex-direction: column-reverse;
+
+}
+
+.step-item-1{
+    border-right: 0;
+}
+
+.step-item-2{
+    border-top: 5px solid orange;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.step-item-3{
+    border-right: 0;
+    border-top: 5px solid orange;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.step-item-5{
+    border-right: 0;
+}
+
+.step-item-6{
+    border-top: 5px solid orange;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.step-item-7{
+    border-right: 0;
+    border-top: 5px solid orange;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.step-item-9 {
+    border-right: 0;
+    
+}
+
+.step-item-10 {
+    border-top: 5px solid orange;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+}
 
 
 
