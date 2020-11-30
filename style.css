@@ -6,89 +6,150 @@ body{
 
 /* nav bar */
 
-header{
-    position: relative;
-    background: white;
-}
-
-.logo{
-    color:#069370;
-    height: 60px;
-    font-size: 36px;
-    line-height: 60px;
-    padding: 0 20px;
-    background: #ccc;
-    text-align:center;
-    box-sizing: border-box;
-    float: left;
-    font-weight: 700;
-    text-decoration: none;
-
-}
-
-nav{
-    float: right;
-}
-.clearfix{
-    clear: both;
-}
-
-nav ul{
+*{
     margin: 0;
     padding: 0;
-    display: flex;
+    /*box-sizing: border-box; */
 }
 
-nav ul li{
-    list-style: none;
+
+
+/*Meny bar*/
+a {
+  color: #000;
 }
 
-nav ul li a{
-    display: block;
-    margin: 10px 0;
-    padding: 10px 20px;
-    text-decoration: none;
-    color: #262626;
+/* header */
+
+.header {
+  background-color: #fff;
+  box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+  position: fixed;
+  width: 100%;
+  z-index: 3;
 }
 
-nav ul li a.active
-{
-    background: #069370;
-    color: white;
-    transition: 0.5s;
+.header ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+  background-color: #fff;
 }
 
-nav ul li a:hover{
-    background: #069370;
-    color: white;
-    transition: 0.5s;
+.header li a {
+  display: block;
+  padding: 20px 20px;
+  border-right: 1px solid #f4f4f4;
+  text-decoration: none;
 }
 
-@media (max-width: 1240px) {
-    header{
-        margin: 20px;
-    }
+.header li a:hover,
+.header .menu-btn:hover {
+  background-color: #069370;
 }
 
-@media (max-width: 1000px) {
-    .menu-toggle{
-        display: block;
-        width: 40px;
-        height: 40px;
-        margin: 10px;
-        background: #ccc;
-        float: right;
-        cursor: pointer;
-        text-align: center;
-        font-size: 30px;
-        color:#069370;
-    }
+.header .logo {
+  display: block;
+  float: left;
+  font-size: 2em;
+  padding: 10px 20px;
+  text-decoration: none;
+}
 
-    .menu-toggle:before {
-        content:'\f0c9';
-        font-family: optima, sans-serif;
-        line-height: 40px;
-    }
+/*Add colour to the active/current link*/
+.active {
+  background-color: #069370;
+  color: black;
+}
+/* menu */
+
+.header .menu {
+  clear: both;
+  max-height: 0;
+  transition: max-height .2s ease-out;
+}
+
+/* menu icon */
+
+.header .menu-icon {
+  cursor: pointer;
+  float: right;
+  padding: 28px 20px;
+  position: relative;
+  user-select: none;
+}
+
+.header .menu-icon .nav-icon {
+  background: #333;
+  display: block;
+  height: 2px;
+  position: relative;
+  transition: background .2s ease-out;
+  width: 18px;
+}
+
+.header .menu-icon .nav-icon:before,
+.header .menu-icon .nav-icon:after {
+  background: #333;
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all .2s ease-out;
+  width: 100%;
+}
+
+.header .menu-icon .nav-icon:before {
+  top: 5px;
+}
+
+.header .menu-icon .nav-icon:after {
+  top: -5px;
+}
+
+/* menu btn */
+
+.header .menu-btn {
+  display: none;
+}
+
+.header .menu-btn:checked ~ .menu {
+  max-height: 240px;
+}
+
+.header .menu-btn:checked ~ .menu-icon .nav-icon {
+  background: transparent;
+}
+
+.header .menu-btn:checked ~ .menu-icon .nav-icon:before {
+  transform: rotate(-45deg);
+  top:0;
+}
+
+.header .menu-btn:checked ~ .menu-icon .nav-icon:after {
+  transform: rotate(45deg);
+  top:0;
+}
+
+
+/* 48em = 768px @ 16pt font */
+
+@media (min-width: 48em) {
+  .header li {
+    float: left;
+  }
+  .header li a {
+    padding: 20px 30px;
+  }
+  .header .menu {
+    clear: none;
+    float: right;
+    max-height: none;
+  }
+  .header .menu-icon {
+    display: none;
+  }
 }
 
 /* The banner */
