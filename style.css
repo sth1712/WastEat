@@ -423,21 +423,21 @@ a {
 
 .container-sdg-icons{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 .container-sdg-icon1{
   width: 25%;
   height: auto;
-  min-width: 150px;
   flex-basis: auto;
+  margin: 15px;
 }
 
 .container-sdg-icon2{
   width: 25%;
   height: auto;
-  min-width: 150px;
   flex-basis: auto;
+  margin: 15px;
 }
 
 
