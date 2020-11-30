@@ -49,7 +49,7 @@ a {
   display: block;
   float: left;
   font-size: 2em;
-  padding: 10px 20px;
+  padding: 0px 40px;
   text-decoration: none;
 }
 
@@ -158,7 +158,7 @@ a {
     width: 100%;
     align-items: stretch;
     justify-content: center;
-    padding-top: 60px;
+    padding-top: 59px;
 }
 
 .banner-frontpage-text {
