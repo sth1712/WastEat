@@ -20,7 +20,6 @@ a {
 }
 
 /* header */
-
 .header {
   background-color: #fff;
   box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
@@ -151,6 +150,7 @@ a {
     display: none;
   }
 }
+/*Meny bar ends*/
 
 /* The banner */
 
