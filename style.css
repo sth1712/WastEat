@@ -413,34 +413,31 @@ a {
 
 /* Soulition page */
 
-.banner-solution{
-    /*padding: 30px;*/
-    text-align: center;
-    font-size: 1.5em;
-    padding-top: 80px;
-}
-
 .solution-container{
+    position: relative;
     display: flex;
     flex-wrap: wrap;
     height: auto;
-    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    min-width: 400px;
     align-items: stretch;
     margin-bottom: 80px;
     margin-top: 30px;
-    
 }
 
 .solution-image{
+    display: flex;
     flex: 1;
     justify-content: stretch;
-    
+    height: auto;
+
 }
 
 .solution-image img {
     height: auto;
-    width: 100%;
-    max-height: 100%;
+    max-width: 100%;
+    min-height: auto;
     min-width: 400px;
 }
 
@@ -457,7 +454,7 @@ a {
     padding-left: 3%;
     height: auto;
     max-width: 100%;
-    min-width: 400px;
+    min-width: 450px;
 
 }
 
