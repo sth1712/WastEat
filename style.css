@@ -187,7 +187,7 @@ a {
 }
 
 
-.what-we-do-box{
+.what-we-do-{
     display: flex;
     height: 35vh;
     align-items:center;
@@ -231,7 +231,7 @@ a {
     height: auto;
     align-items: center;
     text-align: center;
-    margin 20px;
+    margin: 20px;
 }
 
 
@@ -270,10 +270,6 @@ a {
     height: auto;
 }
 
-.info-solution-heading{
-
-
-}
 
 .info-solution-text{
     width: 65%;
