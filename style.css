@@ -378,13 +378,12 @@ a {
    
 }
 
-
-
-
+/*SDG icons */
 .container-sdg{
   display: flex;
   flex-wrap: wrap;
-
+  height: auto;
+  justify-content: center;
 }
 
 .container-sdg-text{
@@ -395,47 +394,26 @@ a {
 
 .container-sdg-icons{
   display: flex;
+  width: 100%;
+  height: auto;
+  padding: 0;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
 .container-sdg-icon1{
-  width: 25%;
   height: auto;
-  flex-basis: auto;
   margin: 15px;
+  max-width: 300px;
 }
 
 .container-sdg-icon2{
-  width: 25%;
   height: auto;
-  flex-basis: auto;
   margin: 15px;
+  max-width: 300px;
 }
 
 
-@media only screen and (max-width: 800px) {
-    .flexbox-item-1{
-        flex-basis: 100%;
-        order: 1;
-    }
-    .flexbox-item-2 {
-        order: 2;
-    }
-    .flexbox-item-4{
-        flex-basis: 100%;
-    }
-    .flexbox-item-6{
-        flex-basis: 100%;
-    }
-    .flexbox-item-7{
-        order: 1;
-    }
-    .flexbox-item-8{
-        flex-basis: 100%;
-        order: 2;
-    }
-
-}
 
 /* Soulition page */
 
