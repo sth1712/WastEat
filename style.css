@@ -172,6 +172,7 @@ a {
     justify-content: center;
     min-height: 250px;
     flex-direction: column;
+    text-align: center;
 }
 
 
@@ -207,7 +208,7 @@ a {
 .information-heading{
     text-align: center;
     width: 100%;
-    color: #1f7a00;
+    color: #069370;
 }
 
 .information{
@@ -267,6 +268,7 @@ a {
     justify-content: center;
     flex-direction: column;
     height: auto;
+    padding-top: 30px;
 }
 
 
