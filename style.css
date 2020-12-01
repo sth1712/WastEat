@@ -618,8 +618,6 @@ and (orientation: landscape) {
 .steps-headline{
     display: flex;
     justify-content: center;
-    font-size: 1.5em;
-    
 }
 
 .steps-container {
