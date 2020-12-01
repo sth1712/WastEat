@@ -187,19 +187,18 @@ a {
 }
 
 
-.what-we-do-{
-    display: flex;
-    height: 35vh;
-    align-items:center;
-    justify-content: center;
+.what-we-do-box{
     height: auto;
-    margin: 45px;
+    text-align: center;
+    margin: 100px 60px 100px;
+    justify-content: center;
 
 }
 
-.what-we-do-box h1{
-    width: 80%;
-    text-align: center;
+@media (max-width: 800px){
+  .what-we-do-box{
+    margin: 40px 20px 40px;
+  }
 }
 
 
