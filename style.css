@@ -315,6 +315,7 @@ a {
     min-width: 400px;
 }
 
+/* Food waste & Food and health text and images */
 
 .foodwaste-container{
     display: flex;
@@ -326,14 +327,23 @@ a {
 .foodandhealth-container {
     display: flex;
     flex-wrap: wrap;
-    align-self: flex-start;
     justify-content: center;
+    align-items: center;
     line-height:1.6em;
+}
+
+.foodwaste-item p {
+    margin-top: 10px;
+}
+
+.foodandhealth-item p {
+    margin-top: 10px;
 }
 
 .img1-challenge{
     max-width: 100%;
     min-width: 40%;
+    width: 100%;
     height: auto;
 }
 .img2-challenge{
@@ -344,31 +354,32 @@ a {
 
 .foodwaste-item {
     max-height: 100%;
-    max-width: 80%;
+    max-width: 100%;
     margin: 3%;
+    align-items: center;
 }
 
 .foodandhealth-item {
     max-height: 100%;
-    max-width: 80%;
+    max-width: 100%;
     margin: 3%;
+    align-items: center;
 }
 
 .foodwaste-item-1{
     flex: 1;
-    order:2;
 }
 .foodwaste-item-2{
     flex: 1;
-    order:1;
+    margin-left: 10px;
+    
 }
 .foodandhealth-item-1{
-    order:2;
     flex: 1;
+    margin-right: 10px;
 }
 
 .foodandhealth-item-2{
-    order: 1;
     flex: 1;
    
 }
@@ -408,7 +419,54 @@ a {
   max-width: 300px;
 }
 
+@media only screen and (max-width: 855px) {
 
+    .foodwaste-container {
+        justify-content: center;
+    }
+    
+    .foodandhealth-container {
+        justify-content: center;
+    }
+
+    .foodwaste-item-1{
+        flex-basis: 100%;
+        order: 2;
+        max-width: 684px;
+        
+    }
+    .foodwaste-item-2 {
+        flex-basis: 100%;
+        order: 1;
+        justify-content: center;
+    }
+    .foodandhealth-item-1{
+        flex-basis: 100%;
+        order: 1;
+        justify-content: center;
+    }
+    .foodandhealth-item-2{
+        flex-basis: 100%;
+        order: 2;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .banner-challenge-content {
+        flex-direction: column-reverse;
+    }
+    .banner-challenge-text {
+        min-height: 150px;
+        align-items: center;
+        max-width: 100%;
+        
+    }
+    .banner-challenge-picture img{
+        max-height: 450px;
+        width: 100%;
+        
+    }
+}
 
 /* Soulition page */
 
