@@ -760,6 +760,83 @@ a {
 
 }
 
+    /*Footer css*/
+   footer{
+   background: #fff1c2;
+   padding: 40px 0;
+   }
+
+ .button {
+   padding: 5px;
+   width: 40px;
+   float:right;
+   right:12px;
+   margin-right: 70px;
+   margin-bottom: 30px;
+   height: 30px;
+   width: 30px;
+   }
+
+
+   .frame2 {
+   width: 50%;
+   margin-bottom:20px;
+   text-align: left;
+   }
+
+   .custom-btn2 {
+   width: 150px;
+   height: 40px;
+   color: black;
+   font-size: 1.2em;
+   font-family: optima, sans-serif;
+   background: orange;
+   cursor: pointer;
+   position: relative;
+   border: none;
+   margin-left: 70px;
+   }
+/*footer ends*/
+
+/*sources code*/
+.mytabs {
+display: flex;
+flex-wrap: wrap;
+max-width: 800px;
+margin: 40px auto;
+padding: 25px;
+}
+.mytabs input[type="radio"] {
+display: none;
+}
+.mytabs label {
+padding: 16px;
+background: #069370;
+color:#000;
+font-weight: bold;
+width: 20%;
+}
+
+.mytabs .tab {
+width: 100%;
+padding: 20px;
+background: #fff1c2;
+order: 5;
+display: none;
+}
+.mytabs .tab h2 {
+font-size: 1em;
+}
+
+.mytabs input[type='radio']:checked + label + .tab {
+display: block;
+}
+
+.mytabs input[type="radio"]:checked + label {
+background: #fff1c2;
+weight:80%;
+}
+}
 
 
 
