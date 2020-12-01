@@ -646,12 +646,6 @@ a {
     padding: 40px 5px;
 }
 
-@media only screen and (max-width: 1182px) {
-    
-    .solution-image img {
-        
-    }
-    
 
 @media only screen and (max-width: 750px) {
     
