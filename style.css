@@ -590,6 +590,11 @@ a {
     
 
 @media only screen and (max-width: 750px) {
+    
+    .steps-headline{
+        text-align: center;
+    }
+    
     .steps-container1 {
         flex-direction: column;
     }
