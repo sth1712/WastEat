@@ -470,9 +470,8 @@ a {
     }
 }
 
-/* Soulition page */
+/* Solution page */
 .banner-solution{
-    /*padding: 30px;*/
     text-align: center;
     font-size: 1.5em;
     padding-top: 80px;
@@ -515,8 +514,6 @@ a {
     font-size: 1.2em;
     line-height: 2em;
     background-color: #fff5D4;
-    margin-bottom: 6px;
-    padding: 5% 3%;
     height: auto;
     max-width: 100%;
     min-width: 450px;
@@ -528,6 +525,40 @@ a {
     font-weight: bold;
 }
 
+@media only screen and (max-width: 850px) {
+    .solution-text {
+    margin-bottom: 6px;
+    padding: 3%;
+    }
+
+    .solution-container {
+        flex-direction: column;
+    }
+}
+
+/*Join movement text*/
+
+.joinmovement-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: auto;
+}
+
+.joinmovement-heading{
+    margin-bottom: 2%;
+    color: #069370;
+    text-align: center;
+}
+
+.joinmovement-text{
+    width: 65%;
+    font-size: 1.2em;
+    line-height: 2em;
+}
+
+/*Steps-section*/
 
 .steps-headline{
     display: flex;
