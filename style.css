@@ -469,6 +469,12 @@ a {
 }
 
 /* Soulition page */
+.banner-solution{
+    /*padding: 30px;*/
+    text-align: center;
+    font-size: 1.5em;
+    padding-top: 80px;
+}
 
 .solution-container{
     position: relative;
