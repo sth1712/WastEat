@@ -8,12 +8,14 @@ body{
 *{
     margin: 0;
     padding: 0;
+    text-decoration-line:none;
     /*box-sizing: border-box; */
 }
 
 /*Meny bar*/
 a {
   color: #000;
+  underlin
 }
 
 hr {
