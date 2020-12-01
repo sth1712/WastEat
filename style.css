@@ -264,7 +264,6 @@ hr {
     height: 40px;
     color: black;
     font-size: 1.2em;
-    font-family: optima, sans-serif;
     background: orange;
     cursor: pointer;
     position: relative;
@@ -657,8 +656,6 @@ and (orientation: landscape) {
    line-height: 1.9em;
    margin-top: 3%;
    margin-bottom: 3%;
-   
-   
 }
 
 .step-item p {
@@ -808,7 +805,7 @@ and (orientation: landscape) {
     padding-top: 10px;
     padding-right: 0px;
     padding-left: 0px;
-}
+    }
 
 }
 
@@ -877,7 +874,6 @@ and (orientation: landscape) {
    height: 40px;
    color: black;
    font-size: 1.2em;
-   font-family: optima, sans-serif;
    background: orange;
    cursor: pointer;
    position: relative;
@@ -911,7 +907,6 @@ width: 20%;
 background-color:#000;
 }
 
-
 .mytabs .tab {
 width: 100%;
 padding: 20px;
@@ -935,12 +930,5 @@ display: block;
 .mytabs input[type="radio"]:checked + label {
 background: #fff1c2;
 weight:80%;
-}
-}
-
-
-
-
-
-
+    }
 
