@@ -623,12 +623,12 @@ and (orientation: landscape) {
 }
 
 .steps-container {
-    margin-top: 3%;
+    margin-top: 5%;
     
 }
 
 .steps-container1{
-    margin: 5%;
+    margin: 3%;
     background-color: #fff5D4;
     display: flex;
     flex-wrap: wrap;
